@@ -1,3 +1,5 @@
 flask
 python-dotenv
 flask-sqlalchemy
+flask-cors
+validators
