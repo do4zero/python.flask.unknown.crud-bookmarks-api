@@ -2,3 +2,4 @@ FLASK_ENV=development
 FLASK_APP=api
 FLASK_DEBUG=True
 SQLALCHEMY_DATABASE_URI=sqlite:///bookmarks.db
+JWT_SECRET_KEY=j8djxi92kxkZozpS0DLl

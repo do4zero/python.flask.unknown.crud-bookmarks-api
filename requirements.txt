@@ -3,3 +3,4 @@ python-dotenv
 flask-sqlalchemy
 flask-cors
 validators
+flask-jwt-extended
