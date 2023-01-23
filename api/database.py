@@ -40,7 +40,7 @@ class Bookmark(db.Model):
             return picked_chars
     
     def __init__(self, **kwargs):
-        super().__init__(kwargs)
+        super().__init__(**kwargs)
         self.short_url = self.generate_short_characters()
     
     def __repr__(self) -> str:
